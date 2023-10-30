@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(assets/fundo_azul.png); /* adicionar imagem de fundo */
+  background-repeat: no-repeat; /* colocar a imagem para nao repitir*/
+  background-position: top center; /* reposicionar o fundo */
+  background-size: cover; /* extender a imagem com o tamanho da tela */
+  /* posso colocar todos os acimas em uma unica linha
+  background: color image repeat position/size 
+  */
+}
+body {
+  font-family: "inter", sans-serif;
+  color: white;
+}
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+#profile img {
+  width: 220px;
+}
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+/* links */
+ul {
+  list-style: none; /* some o ponto que aparece nos links*/
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px /* display + flex + gap criar um espaco entre os botoes */;
+}
+ul li img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#rodape{
+  font-size: small;
+  padding-top: 100px;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
